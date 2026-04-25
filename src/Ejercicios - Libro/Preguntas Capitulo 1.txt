@@ -1,0 +1,73 @@
+Preguntas Capitulo 1:
+Emmanuel Antonio Dzib Galeana
+
+Pregunta 1:
+las respuestas correctas es la D,E por que son las dos que se pueden ejecutar, en la D final no afecta la ejecución del método, solo indica que no puede ser sobrescrito y la E por que es la forma tradicional en la que nos han enseñado y a aparte que cumple todos los requisitos, debe ser accesible, no necesita instancia, No regresa valor.
+
+Pregunta 2:
+La opción correcta es C ya que Java requiere que la declaración package vaya primero, seguida de los import, y después la clase. Cualquier otro orden produce error de compilación.
+
+Pregunta 3:
+A es correcta porque Bunny es una clase declarada.
+E es correcta porque bun es una referencia a un objeto de tipo Bunny creado en el método main.
+
+Pregunta 4:
+B, E y G son identificadores válidos porque siguen las reglas de Java: pueden iniciar con letra, _ o $, y no son palabras reservadas.
+
+Pregunta 5:
+A y D son correctas porque los objetos quedan sin referencias y por lo tanto son elegibles para garbage collection.
+F es correcta porque llamar a System.gc() no garantiza que el recolector se ejecute.
+
+Pregunta 6:
+La respuesta es F porque hay 7 variables en scope en la línea 14: tres atributos de clase (water, air, twoHumps), el parámetro distance, la variable local path, y las variables age e i declaradas dentro del while.
+
+Pregunta 7:
+La respuesta es la F por que no compila ya que la variable Private numForks es de instancia y se llama en main que es estático.
+
+Pregunta8:
+Compilan A, B, D, E y H porque var puede inferir tipos válidos en una sola declaración, no permite múltiples variables en la misma línea y solo falla cuando la asignación es incompatible con el tipo inferido.
+
+Pregunta 9:
+ Es E ,solo las variables de instancia y de clase tienen valores por defecto. Las variables de tipo objeto como String se inicializan en null, mientras que las variables locales no tienen valores por defecto. 
+
+Pregunta 10:
+Esta pregunta no supe, pero la investigue y es la A,F, por que porque los underscores solo pueden usarse entre dígitos. No pueden colocarse al inicio, al final o junto al punto decimal.
+
+Pregunta 11:
+La respuesta es la E, ya que hay 4 imports que son redundantes, las java lang ya las trae por defecto java y la import aquarium por que ya esta importando antes.
+
+Pregunta 12:
+Seria A,C,D, la primera por que no se puede declarar dos tipos distintos en la misma linea, segundo no se permite inicializar valores en parámetros y tercera, no compila por que el método solo existe en el bloque de código de la linea 3
+
+Pregunta 13:
+son A,B,C, la A por que solo hay un water visible, así que no hay problema, la C no tiene conflicto una con otro import así que no hay problema 
+
+Pregunta 14:
+La respuesta es A,B,D,E, por que en todas hay error de tipos
+
+Pregunta 15:
+La respuesta es C,E,F, ya que el garbage collection hace para liberar memoria, se tiene que aclarar que este no hay garantías de que se ejecute, el recolector de basura agarra los objetos elegibles dependiendo si este ya no los vincula una referencia.
+
+Pregunta 16:
+La respuesta es A,D son las correctas, aunque en esta pregunta tuve duda y la investigue y me quedo claro por el símbolo "/" que es el que elimina el espacio y una las dos líneas, y con el "/s" es para dejar un espacio en blanco.
+
+Pregunta 17:
+Es la D,F,G, las variables no están iniciadas ya que cuando imprimen se les asigna el valor por defecto, esto sucede por que son variables de instancia.
+
+Pregunta 18:
+La respuesta es B,C,F, ya el tipo se determina en tiempo de compilación, mas bien intuye el tipo según el valor, no se puede usar  como atributo, solo en variables locales (esto si no lo sabia y lo investigue)y el tipo no cambia en tiempo de ejecución, ya que como mencione se intuye el tipo según el valor asignado.
+
+Pregunta 19:
+La respuesta es A,D ya que la salida es 100 ya que convierte el texto en un long por el Long.parseLong, y claro también aclarar que Long es un primitivo.
+
+Pregunta 20:
+C, ya que el método policeBox tiene un void no devuelve nada haciendo que todos los valores queden por defecto, todos los asociados a p se les cambia el valor pero después hace que p apunte a q el cual conserva los valores predeterminados
+
+Pregunta 21:
+D, ya que se ejecuta por el orden, primero lo que esta en el main, luego los bloques de código y luego el constructor, y es por lo que nos da esa respuesta.
+
+Pregunta 22:
+C,F,G, por que se puede usar números hexadecimales y binarios en números enteros y también por la regla del double por el uso correcto de los guiones bajos y el punto.
+
+Pregunta 23:
+A,D, marcan error de compilación, la primera por que se declara un float cuando debe ser un double si se declararía como float al ser decimal debe llevar el sufijo "f", el otro error por que la variable se declara dentro del for, por lo tanto marca error al querer llamarlo fuera de ese loop.
